@@ -1,0 +1,49 @@
+{
+  "name": "Root App",
+  "type": "folder",
+  "size": "2mb",
+  "items": [
+    {
+      "name": "package.json",
+      "type": "file",
+      "size": "1kb"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "size": "1kb"
+    },
+    {
+      "name": "src",
+      "type": "folder",
+      "size": "10kb",
+      "items": [
+        {
+          "name": "App.tsx",
+          "type": "file",
+          "size": "2kb"
+        },
+        {
+          "name": "MainFolder ",
+          "type": "folder",
+          "size": "3kb",
+          "items": [
+            {
+              "name": "common",
+              "type": "folder",
+              "size": "1kb",
+              "items": [
+                {
+                  "name": "BreadCrumbs.tsx",
+                  "type": "file",
+                  "size": "1kb"
+                  
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
